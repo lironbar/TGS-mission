@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TGS Project</title>
+  <link rel="stylesheet" href="app/styles/app.css">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link href="bower_components/lightbox2/dist/css/lightbox.min.css" rel="stylesheet">
+  <script src="https://use.fontawesome.com/d07ae8a03a.js"></script>
+  <link href="bower_components/angular-xeditable/dist/css/xeditable.css" rel="stylesheet">
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/angular-xeditable/dist/js/xeditable.js"></script>
+  <script src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+  <script src="bower_components/lightbox2/dist/js/lightbox.min.js"></script>
+
+  <script src="app/app.js"></script>
+  <script src="app/app.config.js"></script>
+  <script src="app/layout/hotel-list/hotel-list.js"></script>
+  <script src="app/layout/hotel-detail/hotel-detail.js"></script>
+  <script src="app/services/hotel.service.js"></script>
+  <script src="app/filters/capitalize.filter.js"></script>
+  <script src="app/directives/contenteditable.directive.js"></script>
+</head>
+<body ng-app="app">
+
+  <div ng-view></div>
+
+</body>
+</html>

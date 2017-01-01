@@ -1,0 +1,73 @@
+img {
+  width: 100%;
+}
+
+span {
+  font-size: 15px;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.marginTop {
+  margin-top: 30px;
+}
+
+.paddingLeft {
+  padding-left: 20px;
+}
+
+/* Header */
+.header-container {
+  padding-top: 170px;
+  height: 350px;
+  background: linear-gradient(black, transparent 10%),
+  #1e2022 url(https://a2.muscache.com/im/pictures/812e040f-6f6f-4cae-ad67-66c050b57c1f.jpg?aki_policy=xx_large) no-repeat center;
+  background-size: cover;
+  color: white;
+}
+
+#titleLg {
+  color: #FFFFFF;
+  -webkit-text-stroke: 2px black;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 1.3;
+  text-shadow: 4px 4px 8px rgba(0,0,0,.8);
+  margin: 12px 0 0;
+  line-height: 1.1;
+  font-family: 'Abolition Regular', Helvetica, Arial, sans-serif;
+  font-size: 55px;
+}
+
+#titleMd {
+  border-top: 1px solid;
+  text-shadow: -1px 2px 5px rgba(0,0,0,.8);
+  font-size: 24px;
+}
+
+/* Hotel List CSS */
+.roomTable {
+  overflow: auto
+}
+
+.tableSize {
+  height: 305px;
+}
+
+/* Hotel Detail CSS */
+.infoBox {
+
+  width: 100%;
+  padding-top: 32px;
+}
+
+#roomImg {
+  border-radius: 8px;
+  width: 50%;
+}
+
+#facilities_li {
+  display: inline;
+  padding-left: 20px;
+  margin-top: 25px;
+}

@@ -1,0 +1,11 @@
+[{
+        "val" : 1,
+        "txt" : "Brand A"
+      },
+	  {
+        "val" : 2,
+        "txt" : "Brand B"
+      },{
+        "val" : 3,
+        "txt" : "Brand C"
+      }]

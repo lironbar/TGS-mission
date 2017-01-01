@@ -1,0 +1,2351 @@
+[
+  {
+  "_id" : 1,
+  "name" : "A Hotel Leonardo",
+  "address" : {
+    "city" : "Munich",
+    "address" : "19 ABCV Street",
+    "country" : "Germany"
+  },
+  "details" : {
+    "starRating" : {
+      "val" : 4.5,
+      "txt" : "4.5 stars"
+    },
+    "brand" : {
+      "val" : 2,
+      "txt" : "Brand B"
+    },
+    "currency" : "USD",
+    "checkIn" : "15:00",
+    "checkOut" : "11:00",
+    "numOfRooms" : 98
+  },
+  "amenities" : [
+        {
+          "val" : 1,
+          "txt" : "Spa"
+        },
+        {
+          "val" : 2,
+          "txt" : "Kids Spa"
+        },
+        {
+          "val" : 3,
+          "txt" : "Sauna"
+        },
+        {
+          "val" : 4,
+          "txt" : "Olympic Pool"
+        },
+        {
+          "val" : 5,
+          "txt" : "Ran Bahar Size pool"
+        },
+        {
+          "val" : 6,
+          "txt" : "Angular Pool"
+        },
+        {
+          "val" : 7,
+          "txt" : "Swedish Massage"
+        },
+        {
+          "val" : 8,
+          "txt" : "Master Card"
+        },
+        {
+          "val" : 9,
+          "txt" : "Visa"
+        },
+        {
+          "val" : 10,
+          "txt" : "Diners"
+        },
+        {
+          "val" : 11,
+          "txt" : "American Express"
+        }
+  ],
+  "description" : "this is the hotel description",
+  "images" : [
+    {
+      "id" : 14691496,
+      "url" : "http://image2.urlforimages.com/TipaImages/404/images/3.jpg",
+      "name" : "80126L6018.JPG",
+      "width" : 260,
+      "height" : 200,
+      "isThumbnail" : true
+    },{
+      "id" : 14691496,
+      "url" : "http://image2.urlforimages.com/TipaImages/404/images/1.jpg",
+      "name" : "80126L6018.JPG",
+      "width" : 260,
+      "height" : 200,
+      "isThumbnail" : true
+    },{
+      "id" : 14691496,
+      "url" : "http://image2.urlforimages.com/TipaImages/404/images/4.jpg",
+      "name" : "80126L6018.JPG",
+      "width" : 260,
+      "height" : 200,
+      "isThumbnail" : true
+    }
+
+  ],
+  "roomTypes" : [
+    {
+      "id" : 1,
+      "name" : "Dungeon room",
+      "description" : "coolfrewxdfertert",
+      "maxAdults" : 2,
+      "maxChild" : 0,
+      "maxGuests" : 3,
+      "bathrooms" : 13,
+      "bedrooms" : 1,
+      "numberOfBeds" : 1,
+      "isEditable" : true,
+      "roomSize" : {
+        "size" : 10,
+        "unit" : "SquareMeters"
+      },
+      "images" : [
+        {
+          "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+          "val" : 0
+        },
+        {
+          "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+          "val" : 1
+        }
+      ],
+      "bedType" : {
+        "txt" : "King Size",
+        "val" : 3
+      }
+    },
+    {
+      "id" : 2,
+      "name" : "#2 Room",
+      "description" : "coolfrewxdfertert",
+      "maxAdults" : 2,
+      "maxChild" : 2,
+      "maxGuests" : 3,
+      "bathrooms" : 13,
+      "bedrooms" : 1,
+      "numberOfBeds" : 2,
+      "isEditable" : false,
+      "roomSize" : {
+        "size" : 10,
+        "unit" : "SquareMeters"
+      },
+      "images" : [
+        {
+          "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+          "val" : 0
+        },
+        {
+          "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+          "val" : 1
+        }
+      ],
+      "bedType" : {
+        "txt" : "King Size",
+        "val" : 3
+      }
+    },
+    {
+      "id" : 3,
+      "name" : "Another nice room",
+      "description" : "coolfrewxdfertert",
+      "maxAdults" : 2,
+      "maxChild" : 42,
+      "maxGuests" : 3,
+      "bathrooms" : 13,
+      "bedrooms" : 1,
+      "numberOfBeds" : 2,
+      "isEditable" : true,
+      "roomSize" : {
+        "size" : 10,
+        "unit" : "SquareMeters"
+      },
+      "images" : [
+        {
+          "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+          "val" : 0
+        },
+        {
+          "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+          "val" : 1
+        }
+      ],
+      "bedType" : {
+        "txt" : "King Size",
+        "val" : 3
+      }
+    },
+    {
+      "id" : 4,
+      "name" : "D room",
+      "description" : "coolfrewxdfertert",
+      "maxAdults" : 2,
+      "maxChild" : 42,
+      "maxGuests" : 3,
+      "bathrooms" : 13,
+      "bedrooms" : 1,
+      "numberOfBeds" : 2,
+      "isEditable" : true,
+      "roomSize" : {
+        "size" : 10,
+        "unit" : "SquareMeters"
+      },
+      "images" : [
+        {
+          "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+          "val" : 0
+        },
+        {
+          "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+          "val" : 1
+        }
+      ],
+      "bedType" : {
+        "txt" : "King Size",
+        "val" : 3
+      }
+    }
+  ]
+},
+  {
+    "_id" : 2,
+    "name" : "B Hotel Plaza",
+    "address" : {
+      "city" : "Shenzeng",
+      "address" : "534 FA Street",
+      "country" : "China"
+    },
+    "details" : {
+      "starRating" : {
+        "val" : 3,
+        "txt" : "3 stars"
+      },
+      "brand" : {
+        "val" : 1,
+        "txt" : "Brand A"
+      },
+      "currency" : "USD",
+      "checkIn" : "15:00",
+      "checkOut" : "11:00",
+      "numOfRooms" : 128
+    },
+    "amenities" : [
+      {
+        "val" : 1,
+        "txt" : "Spa"
+      },
+      {
+        "val" : 2,
+        "txt" : "Kids Spa"
+      },
+      {
+        "val" : 3,
+        "txt" : "Sauna"
+      },
+      {
+        "val" : 4,
+        "txt" : "Olympic Pool"
+      },
+      {
+        "val" : 5,
+        "txt" : "Ran Bahar Size pool"
+      },
+      {
+        "val" : 6,
+        "txt" : "Angular Pool"
+      },
+      {
+        "val" : 7,
+        "txt" : "Swedish Massage"
+      },
+      {
+        "val" : 8,
+        "txt" : "Master Card"
+      },
+      {
+        "val" : 9,
+        "txt" : "Visa"
+      },
+      {
+        "val" : 10,
+        "txt" : "Diners"
+      },
+      {
+        "val" : 11,
+        "txt" : "American Express"
+      }
+    ],
+    "description" : "this is the hotel description",
+    "images" : [
+      {
+        "id" : 14691496,
+        "url" : "http://image2.urlforimages.com/TipaImages/404/images/3.jpg",
+        "name" : "80126L6018.JPG",
+        "width" : 260,
+        "height" : 200,
+        "isThumbnail" : true
+      },{
+        "id" : 14691496,
+        "url" : "http://image2.urlforimages.com/TipaImages/404/images/1.jpg",
+        "name" : "80126L6018.JPG",
+        "width" : 260,
+        "height" : 200,
+        "isThumbnail" : true
+      },{
+        "id" : 14691496,
+        "url" : "http://image2.urlforimages.com/TipaImages/404/images/4.jpg",
+        "name" : "80126L6018.JPG",
+        "width" : 260,
+        "height" : 200,
+        "isThumbnail" : true
+      }
+
+    ],
+    "roomTypes" : [
+      {
+        "id" : 1,
+        "name" : "Dungeon room 2",
+        "description" : "coolfrewxdfertert",
+        "maxAdults" : 2,
+        "maxChild" : 0,
+        "maxGuests" : 3,
+        "bathrooms" : 13,
+        "bedrooms" : 1,
+        "numberOfBeds" : 1,
+        "isEditable" : true,
+        "roomSize" : {
+          "size" : 10,
+          "unit" : "SquareMeters"
+        },
+        "images" : [
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+            "val" : 0
+          },
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+            "val" : 1
+          }
+        ],
+        "bedType" : {
+          "txt" : "King Size",
+          "val" : 3
+        }
+      },
+      {
+        "id" : 2,
+        "name" : "#3 Room",
+        "description" : "coolfrewxdfertert",
+        "maxAdults" : 2,
+        "maxChild" : 2,
+        "maxGuests" : 3,
+        "bathrooms" : 13,
+        "bedrooms" : 1,
+        "numberOfBeds" : 2,
+        "isEditable" : false,
+        "roomSize" : {
+          "size" : 10,
+          "unit" : "SquareMeters"
+        },
+        "images" : [
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+            "val" : 0
+          },
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+            "val" : 1
+          }
+        ],
+        "bedType" : {
+          "txt" : "King Size",
+          "val" : 3
+        }
+      },
+      {
+        "id" : 3,
+        "name" : "Another 1 nice room",
+        "description" : "coolfrewxdfertert",
+        "maxAdults" : 2,
+        "maxChild" : 42,
+        "maxGuests" : 3,
+        "bathrooms" : 13,
+        "bedrooms" : 1,
+        "numberOfBeds" : 2,
+        "isEditable" : true,
+        "roomSize" : {
+          "size" : 10,
+          "unit" : "SquareMeters"
+        },
+        "images" : [
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+            "val" : 0
+          },
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+            "val" : 1
+          }
+        ],
+        "bedType" : {
+          "txt" : "King Size",
+          "val" : 3
+        }
+      },
+      {
+        "id" : 4,
+        "name" : "DB room",
+        "description" : "coolfrewxdfertert",
+        "maxAdults" : 2,
+        "maxChild" : 42,
+        "maxGuests" : 3,
+        "bathrooms" : 13,
+        "bedrooms" : 1,
+        "numberOfBeds" : 2,
+        "isEditable" : true,
+        "roomSize" : {
+          "size" : 10,
+          "unit" : "SquareMeters"
+        },
+        "images" : [
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+            "val" : 0
+          },
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+            "val" : 1
+          }
+        ],
+        "bedType" : {
+          "txt" : "King Size",
+          "val" : 3
+        }
+      }
+    ]
+  },
+  {
+    "_id" : 3,
+    "name" : "Marriot",
+    "address" : {
+      "city" : "Prague",
+      "address" : "223 Prague Street",
+      "country" : "Czech Republic"
+    },
+    "details" : {
+      "starRating" : {
+        "val" : 5,
+        "txt" : "5 stars"
+      },
+      "brand" : {
+        "val" : 3,
+        "txt" : "Brand C"
+      },
+      "currency" : "USD",
+      "checkIn" : "15:00",
+      "checkOut" : "11:00",
+      "numOfRooms" : 128
+    },
+    "amenities" : [
+      {
+        "val" : 1,
+        "txt" : "Spa"
+      },
+      {
+        "val" : 2,
+        "txt" : "Kids Spa"
+      },
+      {
+        "val" : 3,
+        "txt" : "Sauna"
+      },
+      {
+        "val" : 4,
+        "txt" : "Olympic Pool"
+      },
+      {
+        "val" : 5,
+        "txt" : "Ran Bahar Size pool"
+      },
+      {
+        "val" : 6,
+        "txt" : "Angular Pool"
+      },
+      {
+        "val" : 7,
+        "txt" : "Swedish Massage"
+      },
+      {
+        "val" : 8,
+        "txt" : "Master Card"
+      },
+      {
+        "val" : 9,
+        "txt" : "Visa"
+      },
+      {
+        "val" : 10,
+        "txt" : "Diners"
+      },
+      {
+        "val" : 11,
+        "txt" : "American Express"
+      }
+    ],
+    "description" : "this is the hotel description",
+    "images" : [
+      {
+        "id" : 14691496,
+        "url" : "http://image2.urlforimages.com/TipaImages/404/images/3.jpg",
+        "name" : "80126L6018.JPG",
+        "width" : 260,
+        "height" : 200,
+        "isThumbnail" : true
+      },{
+        "id" : 14691496,
+        "url" : "http://image2.urlforimages.com/TipaImages/404/images/1.jpg",
+        "name" : "80126L6018.JPG",
+        "width" : 260,
+        "height" : 200,
+        "isThumbnail" : true
+      },{
+        "id" : 14691496,
+        "url" : "http://image2.urlforimages.com/TipaImages/404/images/4.jpg",
+        "name" : "80126L6018.JPG",
+        "width" : 260,
+        "height" : 200,
+        "isThumbnail" : true
+      }
+
+    ],
+    "roomTypes" : [
+      {
+        "id" : 1,
+        "name" : "Dungeon room 2",
+        "description" : "coolfrewxdfertert",
+        "maxAdults" : 2,
+        "maxChild" : 0,
+        "maxGuests" : 3,
+        "bathrooms" : 13,
+        "bedrooms" : 1,
+        "numberOfBeds" : 1,
+        "isEditable" : true,
+        "roomSize" : {
+          "size" : 10,
+          "unit" : "SquareMeters"
+        },
+        "images" : [
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+            "val" : 0
+          },
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+            "val" : 1
+          }
+        ],
+        "bedType" : {
+          "txt" : "King Size",
+          "val" : 3
+        }
+      },
+      {
+        "id" : 2,
+        "name" : "#3 Room",
+        "description" : "coolfrewxdfertert",
+        "maxAdults" : 2,
+        "maxChild" : 2,
+        "maxGuests" : 3,
+        "bathrooms" : 13,
+        "bedrooms" : 1,
+        "numberOfBeds" : 2,
+        "isEditable" : false,
+        "roomSize" : {
+          "size" : 10,
+          "unit" : "SquareMeters"
+        },
+        "images" : [
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+            "val" : 0
+          },
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+            "val" : 1
+          }
+        ],
+        "bedType" : {
+          "txt" : "King Size",
+          "val" : 3
+        }
+      },
+      {
+        "id" : 3,
+        "name" : "Another 1 nice room",
+        "description" : "coolfrewxdfertert",
+        "maxAdults" : 2,
+        "maxChild" : 42,
+        "maxGuests" : 3,
+        "bathrooms" : 13,
+        "bedrooms" : 1,
+        "numberOfBeds" : 2,
+        "isEditable" : true,
+        "roomSize" : {
+          "size" : 10,
+          "unit" : "SquareMeters"
+        },
+        "images" : [
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+            "val" : 0
+          },
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+            "val" : 1
+          }
+        ],
+        "bedType" : {
+          "txt" : "King Size",
+          "val" : 3
+        }
+      },
+      {
+        "id" : 4,
+        "name" : "DB room",
+        "description" : "coolfrewxdfertert",
+        "maxAdults" : 2,
+        "maxChild" : 42,
+        "maxGuests" : 3,
+        "bathrooms" : 13,
+        "bedrooms" : 1,
+        "numberOfBeds" : 2,
+        "isEditable" : true,
+        "roomSize" : {
+          "size" : 10,
+          "unit" : "SquareMeters"
+        },
+        "images" : [
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+            "val" : 0
+          },
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+            "val" : 1
+          }
+        ],
+        "bedType" : {
+          "txt" : "King Size",
+          "val" : 3
+        }
+      }
+    ]
+  },
+  {
+    "_id" : 4,
+    "name" : "Four Seasons",
+    "address" : {
+      "city" : "Munich",
+      "address2" : "1 Template Street",
+      "country" : "Germany"
+    },
+    "details" : {
+      "starRating" : {
+        "val" : 4.5,
+        "txt" : "4.5 stars"
+      },
+      "brand" : {
+        "val" : 2,
+        "txt" : "Brand B"
+      },
+      "currency" : "USD",
+      "checkIn" : "15:00",
+      "checkOut" : "11:00",
+      "numOfRooms" : 98
+    },
+    "amenities" : [
+      {
+        "val" : 1,
+        "txt" : "Spa"
+      },
+      {
+        "val" : 2,
+        "txt" : "Kids Spa"
+      },
+      {
+        "val" : 3,
+        "txt" : "Sauna"
+      },
+      {
+        "val" : 4,
+        "txt" : "Olympic Pool"
+      },
+      {
+        "val" : 5,
+        "txt" : "Ran Bahar Size pool"
+      },
+      {
+        "val" : 6,
+        "txt" : "Angular Pool"
+      },
+      {
+        "val" : 7,
+        "txt" : "Swedish Massage"
+      },
+      {
+        "val" : 8,
+        "txt" : "Master Card"
+      },
+      {
+        "val" : 9,
+        "txt" : "Visa"
+      },
+      {
+        "val" : 10,
+        "txt" : "Diners"
+      },
+      {
+        "val" : 11,
+        "txt" : "American Express"
+      }
+    ],
+    "description" : "this is the hotel description",
+    "images" : [
+      {
+        "id" : 14691496,
+        "url" : "http://image2.urlforimages.com/TipaImages/404/images/3.jpg",
+        "name" : "80126L6018.JPG",
+        "width" : 260,
+        "height" : 200,
+        "isThumbnail" : true
+      },{
+        "id" : 14691496,
+        "url" : "http://image2.urlforimages.com/TipaImages/404/images/1.jpg",
+        "name" : "80126L6018.JPG",
+        "width" : 260,
+        "height" : 200,
+        "isThumbnail" : true
+      },{
+        "id" : 14691496,
+        "url" : "http://image2.urlforimages.com/TipaImages/404/images/4.jpg",
+        "name" : "80126L6018.JPG",
+        "width" : 260,
+        "height" : 200,
+        "isThumbnail" : true
+      }
+
+    ],
+    "roomTypes" : [
+      {
+        "id" : 1,
+        "name" : "Dungeon room",
+        "description" : "coolfrewxdfertert",
+        "maxAdults" : 2,
+        "maxChild" : 0,
+        "maxGuests" : 3,
+        "bathrooms" : 13,
+        "bedrooms" : 1,
+        "numberOfBeds" : 1,
+        "isEditable" : true,
+        "roomSize" : {
+          "size" : 10,
+          "unit" : "SquareMeters"
+        },
+        "images" : [
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+            "val" : 0
+          },
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+            "val" : 1
+          }
+        ],
+        "bedType" : {
+          "txt" : "King Size",
+          "val" : 3
+        }
+      },
+      {
+        "id" : 2,
+        "name" : "#2 Room",
+        "description" : "coolfrewxdfertert",
+        "maxAdults" : 2,
+        "maxChild" : 2,
+        "maxGuests" : 3,
+        "bathrooms" : 13,
+        "bedrooms" : 1,
+        "numberOfBeds" : 2,
+        "isEditable" : false,
+        "roomSize" : {
+          "size" : 10,
+          "unit" : "SquareMeters"
+        },
+        "images" : [
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+            "val" : 0
+          },
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+            "val" : 1
+          }
+        ],
+        "bedType" : {
+          "txt" : "King Size",
+          "val" : 3
+        }
+      },
+      {
+        "id" : 3,
+        "name" : "Another nice room",
+        "description" : "coolfrewxdfertert",
+        "maxAdults" : 2,
+        "maxChild" : 42,
+        "maxGuests" : 3,
+        "bathrooms" : 13,
+        "bedrooms" : 1,
+        "numberOfBeds" : 2,
+        "isEditable" : true,
+        "roomSize" : {
+          "size" : 10,
+          "unit" : "SquareMeters"
+        },
+        "images" : [
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+            "val" : 0
+          },
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+            "val" : 1
+          }
+        ],
+        "bedType" : {
+          "txt" : "King Size",
+          "val" : 3
+        }
+      },
+      {
+        "id" : 4,
+        "name" : "D room",
+        "description" : "coolfrewxdfertert",
+        "maxAdults" : 2,
+        "maxChild" : 42,
+        "maxGuests" : 3,
+        "bathrooms" : 13,
+        "bedrooms" : 1,
+        "numberOfBeds" : 2,
+        "isEditable" : true,
+        "roomSize" : {
+          "size" : 10,
+          "unit" : "SquareMeters"
+        },
+        "images" : [
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+            "val" : 0
+          },
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+            "val" : 1
+          }
+        ],
+        "bedType" : {
+          "txt" : "King Size",
+          "val" : 3
+        }
+      }
+    ]
+  },
+  {
+    "_id" : 5,
+    "name" : "Dan Panorama",
+    "address" : {
+      "city" : "Tel Aviv",
+      "address" : "2 King Solomon Street",
+      "country" : "israel"
+    },
+    "details" : {
+      "starRating" : {
+        "val" : 5,
+        "txt" : "5 stars"
+      },
+      "brand" : {
+        "val" : 3,
+        "txt" : "Brand C"
+      },
+      "currency" : "USD",
+      "checkIn" : "15:00",
+      "checkOut" : "11:00",
+      "numOfRooms" : 128
+    },
+    "amenities" : [
+      {
+        "val" : 1,
+        "txt" : "Spa"
+      },
+      {
+        "val" : 2,
+        "txt" : "Kids Spa"
+      },
+      {
+        "val" : 3,
+        "txt" : "Sauna"
+      },
+      {
+        "val" : 4,
+        "txt" : "Olympic Pool"
+      },
+      {
+        "val" : 5,
+        "txt" : "Ran Bahar Size pool"
+      },
+      {
+        "val" : 6,
+        "txt" : "Angular Pool"
+      },
+      {
+        "val" : 7,
+        "txt" : "Swedish Massage"
+      },
+      {
+        "val" : 8,
+        "txt" : "Master Card"
+      },
+      {
+        "val" : 9,
+        "txt" : "Visa"
+      },
+      {
+        "val" : 10,
+        "txt" : "Diners"
+      },
+      {
+        "val" : 11,
+        "txt" : "American Express"
+      }
+    ],
+    "description" : "this is the hotel description",
+    "images" : [
+      {
+        "id" : 14691496,
+        "url" : "http://image2.urlforimages.com/TipaImages/404/images/3.jpg",
+        "name" : "80126L6018.JPG",
+        "width" : 260,
+        "height" : 200,
+        "isThumbnail" : true
+      },{
+        "id" : 14691496,
+        "url" : "http://image2.urlforimages.com/TipaImages/404/images/1.jpg",
+        "name" : "80126L6018.JPG",
+        "width" : 260,
+        "height" : 200,
+        "isThumbnail" : true
+      },{
+        "id" : 14691496,
+        "url" : "http://image2.urlforimages.com/TipaImages/404/images/4.jpg",
+        "name" : "80126L6018.JPG",
+        "width" : 260,
+        "height" : 200,
+        "isThumbnail" : true
+      }
+
+    ],
+    "roomTypes" : [
+      {
+        "id" : 1,
+        "name" : "Dungeon room 2",
+        "description" : "coolfrewxdfertert",
+        "maxAdults" : 2,
+        "maxChild" : 0,
+        "maxGuests" : 3,
+        "bathrooms" : 13,
+        "bedrooms" : 1,
+        "numberOfBeds" : 1,
+        "isEditable" : true,
+        "roomSize" : {
+          "size" : 10,
+          "unit" : "SquareMeters"
+        },
+        "images" : [
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+            "val" : 0
+          },
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+            "val" : 1
+          }
+        ],
+        "bedType" : {
+          "txt" : "King Size",
+          "val" : 3
+        }
+      },
+      {
+        "id" : 2,
+        "name" : "#3 Room",
+        "description" : "coolfrewxdfertert",
+        "maxAdults" : 2,
+        "maxChild" : 2,
+        "maxGuests" : 3,
+        "bathrooms" : 13,
+        "bedrooms" : 1,
+        "numberOfBeds" : 2,
+        "isEditable" : false,
+        "roomSize" : {
+          "size" : 10,
+          "unit" : "SquareMeters"
+        },
+        "images" : [
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+            "val" : 0
+          },
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+            "val" : 1
+          }
+        ],
+        "bedType" : {
+          "txt" : "King Size",
+          "val" : 3
+        }
+      },
+      {
+        "id" : 3,
+        "name" : "Another 1 nice room",
+        "description" : "coolfrewxdfertert",
+        "maxAdults" : 2,
+        "maxChild" : 42,
+        "maxGuests" : 3,
+        "bathrooms" : 13,
+        "bedrooms" : 1,
+        "numberOfBeds" : 2,
+        "isEditable" : true,
+        "roomSize" : {
+          "size" : 10,
+          "unit" : "SquareMeters"
+        },
+        "images" : [
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+            "val" : 0
+          },
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+            "val" : 1
+          }
+        ],
+        "bedType" : {
+          "txt" : "King Size",
+          "val" : 3
+        }
+      },
+      {
+        "id" : 4,
+        "name" : "DB room",
+        "description" : "coolfrewxdfertert",
+        "maxAdults" : 2,
+        "maxChild" : 42,
+        "maxGuests" : 3,
+        "bathrooms" : 13,
+        "bedrooms" : 1,
+        "numberOfBeds" : 2,
+        "isEditable" : true,
+        "roomSize" : {
+          "size" : 10,
+          "unit" : "SquareMeters"
+        },
+        "images" : [
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+            "val" : 0
+          },
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+            "val" : 1
+          }
+        ],
+        "bedType" : {
+          "txt" : "King Size",
+          "val" : 3
+        }
+      }
+    ]
+  },
+  {
+    "_id" : 6,
+    "name" : "Intercontinental Tokyo",
+    "address" : {
+      "city" : "Tokyo",
+      "address" : "September street",
+      "country" : "Japan"
+    },
+    "details" : {
+      "starRating" : {
+        "val" : 5,
+        "txt" : "4.5 stars"
+      },
+      "brand" : {
+        "val" : 2,
+        "txt" : "Brand B"
+      },
+      "currency" : "USD",
+      "checkIn" : "15:00",
+      "checkOut" : "11:00",
+      "numOfRooms" : 98
+    },
+    "amenities" : [
+      {
+        "val" : 1,
+        "txt" : "Spa"
+      },
+      {
+        "val" : 2,
+        "txt" : "Kids Spa"
+      },
+      {
+        "val" : 3,
+        "txt" : "Sauna"
+      },
+      {
+        "val" : 4,
+        "txt" : "Olympic Pool"
+      },
+      {
+        "val" : 5,
+        "txt" : "Ran Bahar Size pool"
+      },
+      {
+        "val" : 6,
+        "txt" : "Angular Pool"
+      },
+      {
+        "val" : 7,
+        "txt" : "Swedish Massage"
+      },
+      {
+        "val" : 8,
+        "txt" : "Master Card"
+      },
+      {
+        "val" : 9,
+        "txt" : "Visa"
+      },
+      {
+        "val" : 10,
+        "txt" : "Diners"
+      },
+      {
+        "val" : 11,
+        "txt" : "American Express"
+      }
+    ],
+    "description" : "this is the hotel description",
+    "images" : [
+      {
+        "id" : 14691496,
+        "url" : "http://image2.urlforimages.com/TipaImages/404/images/3.jpg",
+        "name" : "80126L6018.JPG",
+        "width" : 260,
+        "height" : 200,
+        "isThumbnail" : true
+      },{
+        "id" : 14691496,
+        "url" : "http://image2.urlforimages.com/TipaImages/404/images/1.jpg",
+        "name" : "80126L6018.JPG",
+        "width" : 260,
+        "height" : 200,
+        "isThumbnail" : true
+      },{
+        "id" : 14691496,
+        "url" : "http://image2.urlforimages.com/TipaImages/404/images/4.jpg",
+        "name" : "80126L6018.JPG",
+        "width" : 260,
+        "height" : 200,
+        "isThumbnail" : true
+      }
+
+    ],
+    "roomTypes" : [
+      {
+        "id" : 1,
+        "name" : "Dungeon room",
+        "description" : "coolfrewxdfertert",
+        "maxAdults" : 2,
+        "maxChild" : 0,
+        "maxGuests" : 3,
+        "bathrooms" : 13,
+        "bedrooms" : 1,
+        "numberOfBeds" : 1,
+        "isEditable" : true,
+        "roomSize" : {
+          "size" : 10,
+          "unit" : "SquareMeters"
+        },
+        "images" : [
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+            "val" : 0
+          },
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+            "val" : 1
+          }
+        ],
+        "bedType" : {
+          "txt" : "King Size",
+          "val" : 3
+        }
+      },
+      {
+        "id" : 2,
+        "name" : "#2 Room",
+        "description" : "coolfrewxdfertert",
+        "maxAdults" : 2,
+        "maxChild" : 2,
+        "maxGuests" : 3,
+        "bathrooms" : 13,
+        "bedrooms" : 1,
+        "numberOfBeds" : 2,
+        "isEditable" : false,
+        "roomSize" : {
+          "size" : 10,
+          "unit" : "SquareMeters"
+        },
+        "images" : [
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+            "val" : 0
+          },
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+            "val" : 1
+          }
+        ],
+        "bedType" : {
+          "txt" : "King Size",
+          "val" : 3
+        }
+      },
+      {
+        "id" : 3,
+        "name" : "Another nice room",
+        "description" : "coolfrewxdfertert",
+        "maxAdults" : 2,
+        "maxChild" : 42,
+        "maxGuests" : 3,
+        "bathrooms" : 13,
+        "bedrooms" : 1,
+        "numberOfBeds" : 2,
+        "isEditable" : true,
+        "roomSize" : {
+          "size" : 10,
+          "unit" : "SquareMeters"
+        },
+        "images" : [
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+            "val" : 0
+          },
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+            "val" : 1
+          }
+        ],
+        "bedType" : {
+          "txt" : "King Size",
+          "val" : 3
+        }
+      },
+      {
+        "id" : 4,
+        "name" : "D room",
+        "description" : "coolfrewxdfertert",
+        "maxAdults" : 2,
+        "maxChild" : 42,
+        "maxGuests" : 3,
+        "bathrooms" : 13,
+        "bedrooms" : 1,
+        "numberOfBeds" : 2,
+        "isEditable" : true,
+        "roomSize" : {
+          "size" : 10,
+          "unit" : "SquareMeters"
+        },
+        "images" : [
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+            "val" : 0
+          },
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+            "val" : 1
+          }
+        ],
+        "bedType" : {
+          "txt" : "King Size",
+          "val" : 3
+        }
+      }
+    ]
+  },
+  {
+  "_id" : 7,
+  "name" : "test hotel",
+  "address" : {
+    "city" : "Barcelona",
+    "address" : "711 Street",
+    "country" : "Spain"
+  },
+  "details" : {
+    "starRating" : {
+      "val" : 5,
+      "txt" : "5 stars"
+    },
+    "brand" : {
+      "val" : 3,
+      "txt" : "Brand C"
+    },
+    "currency" : "USD",
+    "checkIn" : "15:00",
+    "checkOut" : "11:00",
+    "numOfRooms" : 128
+  },
+  "amenities" : [
+    {
+      "val" : 1,
+      "txt" : "Spa"
+    },
+    {
+      "val" : 2,
+      "txt" : "Kids Spa"
+    },
+    {
+      "val" : 3,
+      "txt" : "Sauna"
+    },
+    {
+      "val" : 4,
+      "txt" : "Olympic Pool"
+    },
+    {
+      "val" : 5,
+      "txt" : "Ran Bahar Size pool"
+    },
+    {
+      "val" : 6,
+      "txt" : "Angular Pool"
+    },
+    {
+      "val" : 7,
+      "txt" : "Swedish Massage"
+    },
+    {
+      "val" : 8,
+      "txt" : "Master Card"
+    },
+    {
+      "val" : 9,
+      "txt" : "Visa"
+    },
+    {
+      "val" : 10,
+      "txt" : "Diners"
+    },
+    {
+      "val" : 11,
+      "txt" : "American Express"
+    }
+  ],
+  "description" : "this is the hotel description",
+  "images" : [
+    {
+      "id" : 14691496,
+      "url" : "http://image2.urlforimages.com/TipaImages/404/images/3.jpg",
+      "name" : "80126L6018.JPG",
+      "width" : 260,
+      "height" : 200,
+      "isThumbnail" : true
+    },{
+      "id" : 14691496,
+      "url" : "http://image2.urlforimages.com/TipaImages/404/images/1.jpg",
+      "name" : "80126L6018.JPG",
+      "width" : 260,
+      "height" : 200,
+      "isThumbnail" : true
+    },{
+      "id" : 14691496,
+      "url" : "http://image2.urlforimages.com/TipaImages/404/images/4.jpg",
+      "name" : "80126L6018.JPG",
+      "width" : 260,
+      "height" : 200,
+      "isThumbnail" : true
+    }
+
+  ],
+  "roomTypes" : [
+    {
+      "id" : 1,
+      "name" : "Dungeon room 2",
+      "description" : "coolfrewxdfertert",
+      "maxAdults" : 2,
+      "maxChild" : 0,
+      "maxGuests" : 3,
+      "bathrooms" : 13,
+      "bedrooms" : 1,
+      "numberOfBeds" : 1,
+      "isEditable" : true,
+      "roomSize" : {
+        "size" : 10,
+        "unit" : "SquareMeters"
+      },
+      "images" : [
+        {
+          "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+          "val" : 0
+        },
+        {
+          "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+          "val" : 1
+        }
+      ],
+      "bedType" : {
+        "txt" : "King Size",
+        "val" : 3
+      }
+    },
+    {
+      "id" : 2,
+      "name" : "#3 Room",
+      "description" : "coolfrewxdfertert",
+      "maxAdults" : 2,
+      "maxChild" : 2,
+      "maxGuests" : 3,
+      "bathrooms" : 13,
+      "bedrooms" : 1,
+      "numberOfBeds" : 2,
+      "isEditable" : false,
+      "roomSize" : {
+        "size" : 10,
+        "unit" : "SquareMeters"
+      },
+      "images" : [
+        {
+          "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+          "val" : 0
+        },
+        {
+          "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+          "val" : 1
+        }
+      ],
+      "bedType" : {
+        "txt" : "King Size",
+        "val" : 3
+      }
+    },
+    {
+      "id" : 3,
+      "name" : "Another 1 nice room",
+      "description" : "coolfrewxdfertert",
+      "maxAdults" : 2,
+      "maxChild" : 42,
+      "maxGuests" : 3,
+      "bathrooms" : 13,
+      "bedrooms" : 1,
+      "numberOfBeds" : 2,
+      "isEditable" : true,
+      "roomSize" : {
+        "size" : 10,
+        "unit" : "SquareMeters"
+      },
+      "images" : [
+        {
+          "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+          "val" : 0
+        },
+        {
+          "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+          "val" : 1
+        }
+      ],
+      "bedType" : {
+        "txt" : "King Size",
+        "val" : 3
+      }
+    },
+    {
+      "id" : 4,
+      "name" : "DB room",
+      "description" : "coolfrewxdfertert",
+      "maxAdults" : 2,
+      "maxChild" : 42,
+      "maxGuests" : 3,
+      "bathrooms" : 13,
+      "bedrooms" : 1,
+      "numberOfBeds" : 2,
+      "isEditable" : true,
+      "roomSize" : {
+        "size" : 10,
+        "unit" : "SquareMeters"
+      },
+      "images" : [
+        {
+          "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+          "val" : 0
+        },
+        {
+          "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+          "val" : 1
+        }
+      ],
+      "bedType" : {
+        "txt" : "King Size",
+        "val" : 3
+      }
+    }
+  ]
+},
+  {
+    "_id" : 8,
+    "name" : "Astor On The park",
+    "address" : {
+      "city" : "New York",
+      "address" : "Astoria Street",
+      "country" : "USA"
+    },
+    "details" : {
+      "starRating" : {
+        "val" : 4.5,
+        "txt" : "4.5 stars"
+      },
+      "brand" : {
+        "val" : 2,
+        "txt" : "Brand B"
+      },
+      "currency" : "USD",
+      "checkIn" : "15:00",
+      "checkOut" : "11:00",
+      "numOfRooms" : 98
+    },
+    "amenities" : [
+      {
+        "val" : 1,
+        "txt" : "Spa"
+      },
+      {
+        "val" : 2,
+        "txt" : "Kids Spa"
+      },
+      {
+        "val" : 3,
+        "txt" : "Sauna"
+      },
+      {
+        "val" : 4,
+        "txt" : "Olympic Pool"
+      },
+      {
+        "val" : 5,
+        "txt" : "Ran Bahar Size pool"
+      },
+      {
+        "val" : 6,
+        "txt" : "Angular Pool"
+      },
+      {
+        "val" : 7,
+        "txt" : "Swedish Massage"
+      },
+      {
+        "val" : 8,
+        "txt" : "Master Card"
+      },
+      {
+        "val" : 9,
+        "txt" : "Visa"
+      },
+      {
+        "val" : 10,
+        "txt" : "Diners"
+      },
+      {
+        "val" : 11,
+        "txt" : "American Express"
+      }
+    ],
+    "description" : "this is the hotel description",
+    "images" : [
+      {
+        "id" : 14691496,
+        "url" : "http://image2.urlforimages.com/TipaImages/404/images/3.jpg",
+        "name" : "80126L6018.JPG",
+        "width" : 260,
+        "height" : 200,
+        "isThumbnail" : true
+      },{
+        "id" : 14691496,
+        "url" : "http://image2.urlforimages.com/TipaImages/404/images/1.jpg",
+        "name" : "80126L6018.JPG",
+        "width" : 260,
+        "height" : 200,
+        "isThumbnail" : true
+      },{
+        "id" : 14691496,
+        "url" : "http://image2.urlforimages.com/TipaImages/404/images/4.jpg",
+        "name" : "80126L6018.JPG",
+        "width" : 260,
+        "height" : 200,
+        "isThumbnail" : true
+      }
+
+    ],
+    "roomTypes" : [
+      {
+        "id" : 1,
+        "name" : "Dungeon room",
+        "description" : "coolfrewxdfertert",
+        "maxAdults" : 2,
+        "maxChild" : 0,
+        "maxGuests" : 3,
+        "bathrooms" : 13,
+        "bedrooms" : 1,
+        "numberOfBeds" : 1,
+        "isEditable" : true,
+        "roomSize" : {
+          "size" : 10,
+          "unit" : "SquareMeters"
+        },
+        "images" : [
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+            "val" : 0
+          },
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+            "val" : 1
+          }
+        ],
+        "bedType" : {
+          "txt" : "King Size",
+          "val" : 3
+        }
+      },
+      {
+        "id" : 2,
+        "name" : "#2 Room",
+        "description" : "coolfrewxdfertert",
+        "maxAdults" : 2,
+        "maxChild" : 2,
+        "maxGuests" : 3,
+        "bathrooms" : 13,
+        "bedrooms" : 1,
+        "numberOfBeds" : 2,
+        "isEditable" : false,
+        "roomSize" : {
+          "size" : 10,
+          "unit" : "SquareMeters"
+        },
+        "images" : [
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+            "val" : 0
+          },
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+            "val" : 1
+          }
+        ],
+        "bedType" : {
+          "txt" : "King Size",
+          "val" : 3
+        }
+      },
+      {
+        "id" : 3,
+        "name" : "Another nice room",
+        "description" : "coolfrewxdfertert",
+        "maxAdults" : 2,
+        "maxChild" : 42,
+        "maxGuests" : 3,
+        "bathrooms" : 13,
+        "bedrooms" : 1,
+        "numberOfBeds" : 2,
+        "isEditable" : true,
+        "roomSize" : {
+          "size" : 10,
+          "unit" : "SquareMeters"
+        },
+        "images" : [
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+            "val" : 0
+          },
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+            "val" : 1
+          }
+        ],
+        "bedType" : {
+          "txt" : "King Size",
+          "val" : 3
+        }
+      },
+      {
+        "id" : 4,
+        "name" : "D room",
+        "description" : "coolfrewxdfertert",
+        "maxAdults" : 2,
+        "maxChild" : 42,
+        "maxGuests" : 3,
+        "bathrooms" : 13,
+        "bedrooms" : 1,
+        "numberOfBeds" : 2,
+        "isEditable" : true,
+        "roomSize" : {
+          "size" : 10,
+          "unit" : "SquareMeters"
+        },
+        "images" : [
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+            "val" : 0
+          },
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+            "val" : 1
+          }
+        ],
+        "bedType" : {
+          "txt" : "King Size",
+          "val" : 3
+        }
+      }
+    ]
+  },
+  {
+    "_id" : 9,
+    "name" : "Clarion INN",
+    "address" : {
+      "city" : "Orlando",
+      "address" : "E parkway 212",
+      "country" : "USA"
+    },
+    "details" : {
+      "starRating" : {
+        "val" : 4.5,
+        "txt" : "4.5 stars"
+      },
+      "brand" : {
+        "val" : 2,
+        "txt" : "Brand B"
+      },
+      "currency" : "USD",
+      "checkIn" : "15:00",
+      "checkOut" : "11:00",
+      "numOfRooms" : 98
+    },
+    "amenities" : [
+      {
+        "val" : 1,
+        "txt" : "Spa"
+      },
+      {
+        "val" : 2,
+        "txt" : "Kids Spa"
+      },
+      {
+        "val" : 3,
+        "txt" : "Sauna"
+      },
+      {
+        "val" : 4,
+        "txt" : "Olympic Pool"
+      },
+      {
+        "val" : 5,
+        "txt" : "Ran Bahar Size pool"
+      },
+      {
+        "val" : 6,
+        "txt" : "Angular Pool"
+      },
+      {
+        "val" : 7,
+        "txt" : "Swedish Massage"
+      },
+      {
+        "val" : 8,
+        "txt" : "Master Card"
+      },
+      {
+        "val" : 9,
+        "txt" : "Visa"
+      },
+      {
+        "val" : 10,
+        "txt" : "Diners"
+      },
+      {
+        "val" : 11,
+        "txt" : "American Express"
+      }
+    ],
+    "description" : "this is the hotel description",
+    "images" : [
+      {
+        "id" : 14691496,
+        "url" : "http://image2.urlforimages.com/TipaImages/404/images/3.jpg",
+        "name" : "80126L6018.JPG",
+        "width" : 260,
+        "height" : 200,
+        "isThumbnail" : true
+      },{
+        "id" : 14691496,
+        "url" : "http://image2.urlforimages.com/TipaImages/404/images/1.jpg",
+        "name" : "80126L6018.JPG",
+        "width" : 260,
+        "height" : 200,
+        "isThumbnail" : true
+      },{
+        "id" : 14691496,
+        "url" : "http://image2.urlforimages.com/TipaImages/404/images/4.jpg",
+        "name" : "80126L6018.JPG",
+        "width" : 260,
+        "height" : 200,
+        "isThumbnail" : true
+      }
+
+    ],
+    "roomTypes" : [
+      {
+        "id" : 1,
+        "name" : "Dungeon room",
+        "description" : "coolfrewxdfertert",
+        "maxAdults" : 2,
+        "maxChild" : 0,
+        "maxGuests" : 3,
+        "bathrooms" : 13,
+        "bedrooms" : 1,
+        "numberOfBeds" : 1,
+        "isEditable" : true,
+        "roomSize" : {
+          "size" : 10,
+          "unit" : "SquareMeters"
+        },
+        "images" : [
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+            "val" : 0
+          },
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+            "val" : 1
+          }
+        ],
+        "bedType" : {
+          "txt" : "King Size",
+          "val" : 3
+        }
+      },
+      {
+        "id" : 2,
+        "name" : "#2 Room",
+        "description" : "coolfrewxdfertert",
+        "maxAdults" : 2,
+        "maxChild" : 2,
+        "maxGuests" : 3,
+        "bathrooms" : 13,
+        "bedrooms" : 1,
+        "numberOfBeds" : 2,
+        "isEditable" : false,
+        "roomSize" : {
+          "size" : 10,
+          "unit" : "SquareMeters"
+        },
+        "images" : [
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+            "val" : 0
+          },
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+            "val" : 1
+          }
+        ],
+        "bedType" : {
+          "txt" : "King Size",
+          "val" : 3
+        }
+      },
+      {
+        "id" : 3,
+        "name" : "Another nice room",
+        "description" : "coolfrewxdfertert",
+        "maxAdults" : 2,
+        "maxChild" : 42,
+        "maxGuests" : 3,
+        "bathrooms" : 13,
+        "bedrooms" : 1,
+        "numberOfBeds" : 2,
+        "isEditable" : true,
+        "roomSize" : {
+          "size" : 10,
+          "unit" : "SquareMeters"
+        },
+        "images" : [
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+            "val" : 0
+          },
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+            "val" : 1
+          }
+        ],
+        "bedType" : {
+          "txt" : "King Size",
+          "val" : 3
+        }
+      },
+      {
+        "id" : 4,
+        "name" : "D room",
+        "description" : "coolfrewxdfertert",
+        "maxAdults" : 2,
+        "maxChild" : 42,
+        "maxGuests" : 3,
+        "bathrooms" : 13,
+        "bedrooms" : 1,
+        "numberOfBeds" : 2,
+        "isEditable" : true,
+        "roomSize" : {
+          "size" : 10,
+          "unit" : "SquareMeters"
+        },
+        "images" : [
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+            "val" : 0
+          },
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+            "val" : 1
+          }
+        ],
+        "bedType" : {
+          "txt" : "King Size",
+          "val" : 3
+        }
+      }
+    ]
+  },
+  {
+    "_id" : 10,
+    "name" : "Ritz Carlton Sao Paulo",
+    "address" : {
+      "city" : "Sao Paulo",
+      "address" : "A Street",
+      "country" : "Brazil"
+    },
+    "details" : {
+      "starRating" : {
+        "val" : 3,
+        "txt" : "3 stars"
+      },
+      "brand" : {
+        "val" : 1,
+        "txt" : "Brand A"
+      },
+      "currency" : "USD",
+      "checkIn" : "15:00",
+      "checkOut" : "11:00",
+      "numOfRooms" : 128
+    },
+    "amenities" : [
+      {
+        "val" : 1,
+        "txt" : "Spa"
+      },
+      {
+        "val" : 2,
+        "txt" : "Kids Spa"
+      },
+      {
+        "val" : 3,
+        "txt" : "Sauna"
+      },
+      {
+        "val" : 4,
+        "txt" : "Olympic Pool"
+      },
+      {
+        "val" : 5,
+        "txt" : "Ran Bahar Size pool"
+      },
+      {
+        "val" : 6,
+        "txt" : "Angular Pool"
+      },
+      {
+        "val" : 7,
+        "txt" : "Swedish Massage"
+      },
+      {
+        "val" : 8,
+        "txt" : "Master Card"
+      },
+      {
+        "val" : 9,
+        "txt" : "Visa"
+      },
+      {
+        "val" : 10,
+        "txt" : "Diners"
+      },
+      {
+        "val" : 11,
+        "txt" : "American Express"
+      }
+    ],
+    "description" : "this is the hotel description",
+    "images" : [
+      {
+        "id" : 14691496,
+        "url" : "http://image2.urlforimages.com/TipaImages/404/images/3.jpg",
+        "name" : "80126L6018.JPG",
+        "width" : 260,
+        "height" : 200,
+        "isThumbnail" : true
+      },{
+        "id" : 14691496,
+        "url" : "http://image2.urlforimages.com/TipaImages/404/images/1.jpg",
+        "name" : "80126L6018.JPG",
+        "width" : 260,
+        "height" : 200,
+        "isThumbnail" : true
+      },{
+        "id" : 14691496,
+        "url" : "http://image2.urlforimages.com/TipaImages/404/images/4.jpg",
+        "name" : "80126L6018.JPG",
+        "width" : 260,
+        "height" : 200,
+        "isThumbnail" : true
+      }
+
+    ],
+    "roomTypes" : [
+      {
+        "id" : 1,
+        "name" : "Dungeon room 2",
+        "description" : "coolfrewxdfertert",
+        "maxAdults" : 2,
+        "maxChild" : 0,
+        "maxGuests" : 3,
+        "bathrooms" : 13,
+        "bedrooms" : 1,
+        "numberOfBeds" : 1,
+        "isEditable" : true,
+        "roomSize" : {
+          "size" : 10,
+          "unit" : "SquareMeters"
+        },
+        "images" : [
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+            "val" : 0
+          },
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+            "val" : 1
+          }
+        ],
+        "bedType" : {
+          "txt" : "King Size",
+          "val" : 3
+        }
+      },
+      {
+        "id" : 2,
+        "name" : "#3 Room",
+        "description" : "coolfrewxdfertert",
+        "maxAdults" : 2,
+        "maxChild" : 2,
+        "maxGuests" : 3,
+        "bathrooms" : 13,
+        "bedrooms" : 1,
+        "numberOfBeds" : 2,
+        "isEditable" : false,
+        "roomSize" : {
+          "size" : 10,
+          "unit" : "SquareMeters"
+        },
+        "images" : [
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+            "val" : 0
+          },
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+            "val" : 1
+          }
+        ],
+        "bedType" : {
+          "txt" : "King Size",
+          "val" : 3
+        }
+      },
+      {
+        "id" : 3,
+        "name" : "Another 1 nice room",
+        "description" : "coolfrewxdfertert",
+        "maxAdults" : 2,
+        "maxChild" : 42,
+        "maxGuests" : 3,
+        "bathrooms" : 13,
+        "bedrooms" : 1,
+        "numberOfBeds" : 2,
+        "isEditable" : true,
+        "roomSize" : {
+          "size" : 10,
+          "unit" : "SquareMeters"
+        },
+        "images" : [
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+            "val" : 0
+          },
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+            "val" : 1
+          }
+        ],
+        "bedType" : {
+          "txt" : "King Size",
+          "val" : 3
+        }
+      },
+      {
+        "id" : 4,
+        "name" : "DB room",
+        "description" : "coolfrewxdfertert",
+        "maxAdults" : 2,
+        "maxChild" : 42,
+        "maxGuests" : 3,
+        "bathrooms" : 13,
+        "bedrooms" : 1,
+        "numberOfBeds" : 2,
+        "isEditable" : true,
+        "roomSize" : {
+          "size" : 10,
+          "unit" : "SquareMeters"
+        },
+        "images" : [
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/5.jpg",
+            "val" : 0
+          },
+          {
+            "txt" : "http://image2.urlforimages.com/TipaImages/404/images/7.jpg",
+            "val" : 1
+          }
+        ],
+        "bedType" : {
+          "txt" : "King Size",
+          "val" : 3
+        }
+      }
+    ]
+  },
+  {
+    "_id" : 11,
+    "name" : "Hotel Indigo Tel Aviv",
+    "address" : {
+      "city" : "Ramat Gan",
+      "address" : "Aholiav Street 5",
+      "country" : "Israel"
+    },
+    "details" : {
+      "starRating" : {
+        "val" : 4,
+        "txt" : "4 stars"
+      },
+      "brand" : {
+        "val" : 2,
+        "txt" : "Brand B"
+      },
+      "currency" : "NIS",
+      "checkIn" : "15:00",
+      "checkOut" : "12:00",
+      "numOfRooms" : 92
+    },
+    "amenities" : [
+      {
+        "val" : 1,
+        "txt" : "Outdoor Pool"
+      },
+      {
+        "val" : 2,
+        "txt" : "Sun Deck"
+      },
+      {
+        "val" : 3,
+        "txt" : "Library"
+      },
+      {
+        "val" : 4,
+        "txt" : "Massage"
+      },
+      {
+        "val" : 5,
+        "txt" : "Spa"
+      },
+      {
+        "val" : 6,
+        "txt" : "Fitness Center"
+      },
+      {
+        "val" : 7,
+        "txt" : "Sauna"
+      },
+      {
+        "val" : 8,
+        "txt" : "Snack Bar"
+      },
+      {
+        "val" : 9,
+        "txt" : "Buffet-Style Restaurant"
+      },
+      {
+        "val" : 10,
+        "txt" : "Currency Exchange"
+      },
+      {
+        "val" : 11,
+        "txt" : "Room Service"
+      }
+    ],
+    "description" : "this is the hotel description",
+    "images" : [
+      {
+        "id" : 14691496,
+        "url" : "https://copelandsblog.files.wordpress.com/2013/09/66.jpg",
+        "name" : "80126L6018.JPG",
+        "width" : 260,
+        "height" : 200,
+        "isThumbnail" : true
+      },{
+        "id" : 14691496,
+        "url" : "http://4.bp.blogspot.com/-3lBmsjQj-iU/UiX53AQwkbI/AAAAAAAAYR4/V5Wj_EKKjU8/s1600/Elegant_Colorful_Hotel_Interior_Design_In_Tel_Aviv_on_world_of_architecture_25.jpg",
+        "name" : "80126L6018.JPG",
+        "width" : 260,
+        "height" : 200,
+        "isThumbnail" : true
+      },{
+        "id" : 14691496,
+        "url" : "http://r-ec.bstatic.com/images/hotel/840x460/211/21193969.jpg",
+        "name" : "80126L6018.JPG",
+        "width" : 260,
+        "height" : 200,
+        "isThumbnail" : true
+      }
+
+    ],
+    "roomTypes" : [
+      {
+        "id" : 1,
+        "name" : "Superior Double Room - Non-Smoking",
+        "description" : "Amazing view",
+        "maxAdults" : 2,
+        "maxChild" : 0,
+        "maxGuests" : 3,
+        "bathrooms" : 13,
+        "bedrooms" : 1,
+        "numberOfBeds" : 1,
+        "isEditable" : true,
+        "roomSize" : {
+          "size" : 13,
+          "unit" : "SquareMeters"
+        },
+        "images" : [
+          {
+            "txt" : "http://q-ec.bstatic.com/images/hotel/840x460/211/21194104.jpg",
+            "val" : 0
+          }
+        ],
+        "bedType" : {
+          "txt" : "King Size",
+          "val" : 3
+        }
+      },
+      {
+        "id" : 2,
+        "name" : "1 Queen Bed Accessible Nonsmoking",
+        "description" : "Nonsmoking",
+        "maxAdults" : 2,
+        "maxChild" : 2,
+        "maxGuests" : 3,
+        "bathrooms" : 13,
+        "bedrooms" : 1,
+        "numberOfBeds" : 2,
+        "isEditable" : false,
+        "roomSize" : {
+          "size" : 14,
+          "unit" : "SquareMeters"
+        },
+        "images" : [
+          {
+            "txt" : "https://i0.bookcdn.com/data/Photos/OriginalPhoto/1043/104373/104373863/Indigo-Tel-Aviv--Diamond-Exchange-photos-Exterior.JPEG",
+            "val" : 0
+          }
+        ],
+        "bedType" : {
+          "txt" : "Queen Size Bed",
+          "val" : 3
+        }
+      },
+      {
+        "id" : 3,
+        "name" : "Executive King Suite with Spa Bath - Non smoking",
+        "description" : "The best suite in Israel",
+        "maxAdults" : 2,
+        "maxChild" : 0,
+        "maxGuests" : 2,
+        "bathrooms" : 1,
+        "bedrooms" : 1,
+        "numberOfBeds" : 1,
+        "isEditable" : true,
+        "roomSize" : {
+          "size" : 20,
+          "unit" : "SquareMeters"
+        },
+        "images" : [
+          {
+            "txt" : "https://i0.bookcdn.com/data/Photos/OriginalPhoto/1043/104373/104373848/Indigo-Tel-Aviv--Diamond-Exchange-photos-Exterior.JPEG",
+            "val" : 0
+          },
+          {
+            "txt" : "http://aff.bstatic.com/images/hotel/max500/212/21205019.jpg",
+            "val" : 1
+          }
+        ],
+        "bedType" : {
+          "txt" : "King Size",
+          "val" : 3
+        }
+      }
+    ]
+  }
+]

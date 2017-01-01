@@ -1,0 +1,98 @@
+<div ng-show="!hotelData">
+  <h2>Data Not Available</h2>
+</div>
+
+<div ng-show="hotelData">
+  <div class="container-fluid">
+
+    <div class="container">
+      <div class="row paddingLeft">
+        <h2>Hotel: {{hotelData.name}} </h2>
+      </div>
+
+      <div class="row marginTop">
+
+        <div class="col-xs-12 col-sm-8 col-md-7 col-lg-6">
+          <img class=" img-rounded" ng-src="{{hotelData.images[0].url}}" />
+        </div>
+
+        <div class="col-xs-5 col-sm-4 col-md-offset-1 col-md-4 col-lg-offset-1 col-lg-5">
+          <div class="infoBox">
+
+            <form name="hotelForm">
+              <div class="">
+                <h5>Address:
+                  <small contenteditable name="address" ng-model="hotelData.address.address"></small>
+                </h5>
+                <h5>City:
+                  <small contenteditable name="city"ng-model="hotelData.address.city"></small>
+                </h5>
+                <h5>Country:
+                  <small contenteditable name="country"ng-model="hotelData.address.country"></small>
+                </h5>
+                <h5>Rooms:
+                  <small contenteditable name="rooms"ng-model="hotelData.details.numOfRooms"></small>
+                </h5>
+                <h5>Check In:
+                  <small contenteditable name="checkIn"ng-model="hotelData.details.checkIn"></small>
+                </h5>
+                <h5>Check Out:
+                  <small contenteditable name="checkOut"ng-model="hotelData.details.checkOut"></small>
+                </h5>
+                <h5>Currency:
+                  <small contenteditable name="currency"ng-model="hotelData.details.currency"></small>
+                </h5>
+                <h5>Description:
+                  <small contenteditable name="description"ng-model="hotelData.description"></small>
+                </h5>
+                <h5>Rating:
+                  <small contenteditable name="rating"ng-model="hotelData.details.starRating.txt"></small>
+                </h5>
+
+                <button class="btn btn-primary" ng-click="deleteHotel('/#!/hotels/', hotelData._id)">Delete</button>
+                <button class="btn btn-danger"ng-click="saveChanges(hotelData)">Save</button>
+              </div>
+              <form>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6">
+              <h3> Facilities: </h3>
+              <ul id="amenitie_ul">
+                <li ng-repeat="facilities in hotelData.amenities" id="facilities_li" class="col-xs-6">
+                  <span class=""> <i class="fa fa-check" aria-hidden="true"></i> {{facilities.txt}} </span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-6">
+              <h3> Rooms: </h3>
+              <div class="table-responsive tableSize">
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th> Room Type: </th>
+                      <th> Image </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr ng-repeat="room in hotelData.roomTypes track by room.id">
+                      <td>{{room.name}}</td>
+                      <td>
+                        <a ng-href="{{room.images[0].txt}}" data-lightbox="room-img" data-title="{{room.name}}">
+                          <img id="roomImg" ng-src="{{room.images[0].txt}}" />
+                        </a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
